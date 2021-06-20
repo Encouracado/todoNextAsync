@@ -1,0 +1,62 @@
+:root {
+  --font-size-base: 1rem;
+  --font-size-biggish: 1.75rem;
+  --font-size-big: 2.25rem;
+
+  --white: #fff;
+
+  --gray-50: #f7f8fa;
+  --gray-100: #e6e8eb;
+  --gray-200: #afb2b1;
+  --gray-500: #808080;
+  --gray-800: #494d4b;
+  --gray-1000: #1f2937;
+
+  --green-500: #04d361;
+
+  --purple-300: #9f75ff;
+  --purple-400: #9164fa;
+  --purple-500: #8257e5;
+  --purple-800: #6f48c9;
+
+  --sky-100: #E0F2FE;
+  --sky-200:#BAE6FD;
+  --sky-300:#7DD3FC;
+  --sky-400:#38BDF8;
+  --sky-500:#0EA5E9;
+
+  --fuchsia-100:#FAE8FF;
+  --fuchsia-200:#F5D0FE;
+  --fuchsia-300:#F0ABFC;
+  --fuchsia-400:#E879F9;
+  --fuchsia-500:#D946EF;
+
+}
+
+body, html{
+  height:100vh;
+background: var(--gray-50 );
+}
+
+/* elements */
+
+h3 {
+  font-size: var(--font-size-biggish);
+}
+h2 {
+  font-size: var(--font-size-big);
+}
+
+/* utilities */
+
+.font-size\:base {
+  font-size: var(--font-size-base) !important;
+}
+
+.font-size\:biggish {
+  font-size: var(--font-size-biggish) !important;
+}
+
+.font-size\:big {
+  font-size: var(--font-size-big) !important;
+}
