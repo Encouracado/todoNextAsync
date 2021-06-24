@@ -2,9 +2,14 @@ import Head from "next/head";
 import Image from "next/image";
 import SitReadingDoodle from "../../public/SitReadingDoodle.svg";
 import book from "../../public/book.png";
-import Link from "next/link";
+import { useRouter } from 'next/router'
 
 export default function Home() {
+  const router = useRouter();
+  function handleUsers(e: any){
+    e.preventDefault();
+    router.push('/showUsers')
+  }
   return (
     <div className="Wrapper">
       <Head>
@@ -36,7 +41,7 @@ export default function Home() {
         />
       </div>
       <div className="GetStartedButton">
-        <button className="style-4"><Link href={'/showUsers'}><a>Get started</a></Link></button>
+        <button className="style-4" onClick={handleUsers}>Get started</button>
       </div>
     </div>
   );

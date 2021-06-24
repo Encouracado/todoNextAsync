@@ -1,0 +1,75 @@
+.headerStyle{
+    float: right;
+    >button{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        background: transparent;
+        font-size:25px;
+        color:var(--gray-1000);
+        border: 0;
+        cursor: pointer;
+        >svg{
+        color: var(--gray-1000);
+        width: 3rem;
+        height: 3rem;
+        
+        }
+    }
+}
+.mainImg{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+   display: flex;
+   align-items: center;
+   margin-top: 2.5rem;
+   margin-left: 1rem;
+   font-size: 2rem;
+   font-weight: bolder;
+   color: var(--gray-1000);
+
+}
+.Wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow:1;
+
+    margin-top: 3rem;
+    margin-left: 8rem;
+    margin-bottom: 5rem;
+    width:80vw;
+    border-radius: 5%;
+
+    background:var(--purple-500);
+}
+
+.UserBox{
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    margin-right:2rem;
+    margin-bottom: 1.5rem;
+
+    width: 50vw;
+    padding: 1rem;
+
+    border: 1px solid var(--purple-300);
+
+    a{
+        font-weight: bold;
+        color: var(--white);
+        text-decoration: none;
+        
+        &:hover{
+            text-decoration:underline;
+            color: var(--white);
+        }
+    }
+
+    &:hover{
+        opacity: 0.70;
+    }
+}
