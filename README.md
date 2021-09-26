@@ -1,6 +1,7 @@
 
 
-## Getting Started
+## Getting Started.
+
 
 In the terminal execute the command line $ git clone https://github.com/Encouracado/todoNextAsync.git
 
